@@ -1,11 +1,11 @@
-//fusion desktop menu and navbar
+//desktop menu and navbar
 const menuEmail = document.querySelector('.navbar-email')
 const desktopMenu = document.querySelector('.desktop-menu')
 
 menuEmail.addEventListener('click', toggleDesktopMenu)
 
 function toggleDesktopMenu () {
-  //MY SOLUTION BUT
+  
 
   // if (desktopMenu.classList.contains('inactive')){
   //   desktopMenu.classList.remove('inactive')
@@ -20,7 +20,7 @@ function toggleDesktopMenu () {
   desktopMenu.classList.toggle('inactive')
 }
 
-//fusion mobile menu 
+//mobile menu 
 const burguerMenuIcon = document.querySelector('.menu')
 const mobileMenu = document.querySelector('.mobile-menu')
 
@@ -42,7 +42,7 @@ function toggleMobileMenu() {
   }
 }
 
-//fusion shopping cart
+// shopping cart
 const cartMenuIcon = document.querySelector('.navbar-shopping-cart')
 const asideCart = document.querySelector('.product-detail')
 const imgArrow= document.querySelector('.close-order')
