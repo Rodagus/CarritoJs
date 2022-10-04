@@ -5,8 +5,6 @@ const desktopMenu = document.querySelector('.desktop-menu')
 menuEmail.addEventListener('click', toggleDesktopMenu)
 
 function toggleDesktopMenu () {
-  
-
   // if (desktopMenu.classList.contains('inactive')){
   //   desktopMenu.classList.remove('inactive')
   // }else{
@@ -75,9 +73,9 @@ const cardsContainer = document.querySelector('.cards-container')
 
 function pushProductsList(productList) {
   productList.push ({
-      name:'Bike',
+      name:'Teclado',
       price: 120,
-      image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+      image: 'https://www.megabytes.cl/wp-content/uploads/2021/10/TECLADO-MECANICO-REDRAGON-KUMARA-WHITE-K552W-RGB-3-1200x1200.png'
   })
   productList.push ({
       name: 'Monitor',
@@ -85,9 +83,19 @@ function pushProductsList(productList) {
       image: 'https://www.lg.com/mx/images/monitores/MD06155039/gallery/D-03.jpg'
   })
   productList.push ({
-      name: 'Notebook',
+      name: 'CPU',
       price: 650,
-      image: 'https://www.muycomputer.com/wp-content/uploads/2021/01/Samsung_Notebook_Plus2_portada.jpg'
+      image: 'https://cdn.shopify.com/s/files/1/0508/2152/9783/products/CPUARMADA-09_500x500.jpg?v=1656432940'
+  })
+  productList.push({
+      name: 'MacBook',
+      price: 899,
+      image: 'https://i.blogs.es/74472b/820c2971-5606-4290-9c87-2a2601bce53f/450_1000.jpeg'
+  })
+  productList.push({
+      name: 'MacMini',
+      price: 799,
+      image: 'https://i.blogs.es/57e6bd/mac_mini_m1/450_1000.webp'
   })
 }
 pushProductsList(productList)
